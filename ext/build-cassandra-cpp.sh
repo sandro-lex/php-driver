@@ -1,5 +1,9 @@
 #!/bin/bash
 git clone https://github.com/datastax/cpp-driver.git
+#git clone https://github.com/waitamer/cpp-driver
+cd cpp-driver
+#git checkout feature/blacklist
+cd ..
 mkdir cpp-build
 cd cpp-build
 builddir=`pwd`
